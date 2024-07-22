@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html style=" scroll-behavior:smooth;">
+<style>
+  /*.    | Funções |.    */
+
+input:checked ~#up{display:;opacity:%;
+transform:rotateZ(-90deg);
+top:-2px;
+left:50px;
+font-size:70px;
+}
+input:checked ~ body{filter:blur(3px);}
+
+input:checked ~ b{
+display:block;
+opacity:100%; top:27px;
+filter: drop-shadow(0px 3px 4px  #909);
+border:1px solid white;
+border-radius:15px;
+transition:ease 0.5s;
+background-color:#999;
+position:relative ;
+font-size:20px;
+padding-left:10px;
+padding:20px;
+z-index:200;
+color:white;
+margin:40px;
+text-align:center;
+left:-50px;
+}
+
+/*»»»»»»»»»»»»»»| Hovers |«««««««««««««*/
+#agenda-btn:hover{
+    box-shadow:0px 0px 9px #808;
+    transition:all 1s;
+    background:#808;
+    color:pink;
+}
+#amostra-1:hover{transform:scale(1.1);}
+b:hover{border-bottom:3px solid yellow;}
+
+a{transition:all 1s;text-decoration:none;}
+#👤:hover{
+    filter: drop-shadow(0px 3px 4px  #909);
+    border-bottom:2px solid #909;
+    filter:sepia(200);
+
+}
+/*
+body:scroll {
+   #fundo-img {
+    opacity: calc(1 - (window.scrollY / 1000)); /* Diminui a opacidade à medida que desce a tela */
+  }
+}
+
+/*
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2') format('woff2');
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+*/
+@keyframes fundo_img{
+    0%{opacity:0%;filter:blur(7px);}
+    100%{opacity:40%;}
+}
+@media only screen and (max-width: 600px) {
+            body {
+                margin-left: 0;
+                background:re;
+            }
+/********************************************/            
+#up{
+    top:5px;
+    font-size:50px;
+    display:non;
+    color:transparen ;
+    left: 50px;
+    position:fixed ;
+    font-weight:bolder;
+    filter:drop-shadow(0px 1px 2px yellow);
+    background-size: 90px;
+    background-clip: text;
+    transition: /*transform 0.5s*/;
+    transition:all 0.9s ;  background-image:url("https://media2.giphy.com/media/10rtoKqcDukJgc/giphy.gif?cid=6c09b9528rdt1m0os9oom58edxvjbd4iy9cpf31ykdyowugy&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
+/* https://media0.giphy.com/media/l0ExhcMymdL6TrZ84/giphy.gif?cid=6c09b9528wu71gyc5lfurqvxd4497dqd8yvhzji4gxaa6yz6&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"*/);
+    
+
+    }
+body {
+    justify-content:space-evenly;
+    background-color:#222;
+    transition:all 2s;
+    left:0px;
+    top:0px;
+    height:4000px;
+}
+nav{
+    
+    top:0px;
+    height:;
+    padding:5%; padding-left:25%;
+    position:absolute ;
+    font-size:12px;
+    width:70%;
+    color:white;
+    filter:blur(0px)sepia(90%);
+    background:#999;
+    z-index:20;
+    border-bottom:1px solid white;
+    
+}
+#👤{margin-left:40px; filter:hue-rotate(90deg);font-size:20px;
+position:absolute ;transition:all 1s;
+}
+b{
+    font-size:px;
+    top:0px;
+    height:px;
+    opacity:0%;
+    margin:2%;
+    transition:;
+    border-radius:30px solid red;
+}
+input{
+    left:-170px;
+    transition:all 2s;
+    position:absolute ;
+}
+
+#fundo-img{
+    top:-100px;
+    position:absolute  ;
+    left:-67%;
+    height:90%;
+    filter:blur(2px);
+    transform: rotateY(200deg);
+    opacity:40%;
+    animation: fundo_img 3s ease /*infinite*/;  
+}
+
+h1{
+    width:300px;
+    z-index:10;
+    position:absolute ;
+    color:white;
+    top:250px;
+    left:30px;
+    text-align:left ;
+    font-family:'Yanone Kaffeesatz',;/*'Fredoka One', cursive;*/
+    
+}
+#titulo{
+    color: #black;
+    z-index:100;
+    position:absolute ;
+    top:20px;
+    font-size:20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+#agenda-btn{
+z-index:5;
+    position:absolute ;
+    top:50%;
+    left: 25px;
+    border: none;
+    font-size:40px;
+    color:transparent ;
+    font-weight:bolder;
+    border-radius:15px;    
+    background-size:cover;
+    text-transform:uppercase ;    
+    box-shadow: 0px 0px 1px 1px #909;
+    -webkit-background-clip:text;
+    background-image:url(" https://media4.giphy.com/media/LOMlGNLrNFjQ56nFRG/giphy.gif?cid=6c09b952z2tsx59gzy5sa56s3ze1u76xnf2leedbavh4259n&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+}
+/*.   | Amostras |.   */
+#design{
+    top:600px;
+    height:1300px;
+    position:absolute ;
+    text-align:center;
+    width:100%;
+    display:;
+    background:white;
+    z-index:1;
+    color:#909;
+    font-size:30px;
+    transition:1s;
+    scroll-behavior:smooth;
+}
+#amostra-1,#amostra-2,#amostra-3{
+    z-index:1000;
+    width:90%;
+    display:;
+    text-align:;
+    }
+#curso{
+    position:absolute ;
+    width:100%;
+    height:50%;
+    top:2100px;
+    background:yellow;
+    z-index:1002;
+}
+#p-titulo{
+    filter:sepia(100%);
+    color:transparent;
+    font-weight:bolder;
+    border-radius:3px;    
+    background-size:2px;
+    text-transform:uppercase ;    
+    box-shadow: 0px 10px 17px -10px #999;
+    -webkit-background-clip:text;
+    background-image:url(" https://media2.giphy.com/media/10rtoKqcDukJgc/giphy.gif?cid=6c09b9528rdt1m0os9oom58edxvjbd4iy9cpf31ykdyowugy&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+
+}
+
+
+
+
+
+
+
+  
+</style>
+    <head>
+        <title>My Portifolio^^</title>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Caveat&family=Akaya+Telivigala&family=Concert+One&family=Cookie&family=Courgette&family=Dancing+Script&family=Dosis&family=Festive&family=Fredoka+One&family=Great+Vibes&family=Indie+Flower&family=Lobster&family=Mochiy+Pop+P+One&family=Oswald:wght@600&family=Patrick+Hand&family=Permanent+Marker&family=Quintessential&family=Roboto&family=Rock+3D&family=Rowdies&family=Secular+One&family=Shizuru&family=Tangerine&family=Yanone+Kaffeesatz:wght@400;500;546&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+ 
+        <nav style="transition:1s;height:50;">
+            <input type="checkbox"id="=">
+            <label for="="id="up">=</label>
+            <b><a href="#D">Designs</a></b>
+            <b href="#curso">Cursos</b>
+            
+<div id="titulo"class="T">NARY RX Makeup</div>
+
+            <b href="#rede">Redes</b>
+            <b href="#sob">Sobre</b>
+            <label id="👤"> 👤 </label>
+        </nav>
+        <img id="fundo-img" src="https://th.bing.com/th/id/OIG2.gLQxFSzinihCJB1uSEp1?dpr=2,5&pid=ImgDetMain">
+        
+        <h1>Seja bela e venha fazer parte da nossa comunidade</h1>
+        <button id="agenda-btn"> Agendar </button>
+        
+        <div id="design" src=""><!-- Designs -->
+            <div><a id="D"></a>
+                <p id="p-titulo">Produtos Anunciados</p>
+                <img id="amostra-1"src= "https://th.bing.com/th/id/OIG3.hXBcAMr68bwfVlNOis4u?dpr=2,5&pid=ImgDetMain">
+            </div>
+            
+            <p id="p-titulo">Preços de Serviços</p>
+            <img id="amostra-2"src=" https://th.bing.com/th/id/OIG1.VRgjDUPPEsXbkEqdWxnw?dpr=2,5&pid=ImgDetMain">
+            <p id="p-titulo">Fotos e Videos</p>
+            <img id="amostra-3"src=" https://th.bing.com/th/id/OIG1.q.KiSieJwaq_8bYJd2E8?dpr=2,5&pid=ImgDetMain">
+        </div>
+        
+        <div id="curso"><!-- cursos -->
+        
+            <a>Certificados</a>
+        </div>
+        
+        <div id="rede"><!-- redes -->
+            <area>
+                <a></a>
+                <a></a>
+                <a></a>
+            </area>
+        </div>
+    </body>
+</html>
